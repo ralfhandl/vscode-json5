@@ -80,6 +80,7 @@
 					},
 					"name": "meta.structure.dictionary.value.json5",
 					"patterns": [
+						{ "include": "#comments" },
 						{
 							"comment": "the json5 object value",
 							"include": "#value"
