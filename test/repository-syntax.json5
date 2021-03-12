@@ -1,6 +1,6 @@
 {
-    foo: 'bar',
-    while: true,
+    /* before key */ foo /* after key */: 'bar',
+    while: /* before value */ true /* after value */,
 
     this: 'is a \
 multi-line string',
@@ -17,8 +17,8 @@ multi-line string',
     to: Infinity,   // and beyond!
 
     finally: 'a trailing comma',
-    oh: [
-        "we shouldn't forget",
+    oh: [ /* before item */
+        "we shouldn't forget" /*after item */, /*before next item */
         'arrays can have',
         'trailing commas too',
     ],
