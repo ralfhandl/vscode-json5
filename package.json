@@ -2,7 +2,7 @@
     "name": "vscode-json5",
     "displayName": "JSON5 syntax",
     "description": "Adds syntax highlighting of JSON5 files",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "mrmlnc",
     "license": "MIT",
     "engines": {
